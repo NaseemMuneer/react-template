@@ -1,0 +1,82 @@
+// antd wave animation
+html {
+    --antd-wave-shadow-color: #2baeb3 !important;
+  }
+  
+  .primary-table {
+    .ant-pagination-item {
+      display: none !important;
+    }
+    .ant-pagination-jump-next {
+      display: none !important;
+    }
+    .ant-pagination-total-text {
+      font-size: 0.85rem;
+      margin: 3px 10px;
+      font-weight: 500;
+    }
+    .ant-pagination .ant-pagination-item-link {
+      background-color: #fff !important;
+      border-radius: 50% !important;
+      height: 24px !important;
+      margin-top: 3px !important;
+      position: relative !important;
+      width: 24px !important;
+      border: 1px solid #d9d9d9 !important;
+      margin: 0 8px;
+  
+      &:hover {
+        border-color: #2baeb3 !important;
+  
+        svg {
+          color: #2baeb3 !important;
+        }
+      }
+  
+      span {
+        position: absolute !important;
+        right: 4px;
+        top: 5px;
+      }
+    }
+    .ant-pagination-disabled .ant-pagination-item-link {
+      &:hover {
+        border-color: #d9d9d9 !important;
+  
+        svg {
+          color: #d9d9d9 !important;
+        }
+      }
+    }
+  }
+  
+  .ant-message .anticon {
+    top: -2px !important;
+  }
+  
+  .primary-tabs-outlined {
+    .ant-tabs-tab-active {
+      font-weight: 500;
+      &,
+      .ant-tabs-tab-btn {
+        color: #2baeb3 !important;
+      }
+    }
+  
+    .ant-tabs-tab:hover,
+    .ant-tabs-tab-btn:hover {
+      color: #2baeb3 !important;
+    }
+    .ant-tabs-ink-bar {
+      background-color: #2baeb3 !important;
+    }
+    .ant-tabs-nav {
+      &::before {
+        border-bottom: 0 !important;
+      }
+    }
+    .ant-tabs-tab + .ant-tabs-tab {
+      margin: 0 0 0 50px !important;
+    }
+  }
+  
